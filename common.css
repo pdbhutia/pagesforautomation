@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 .coffee{
     background-color:#edde53 ;
     border: none;
@@ -7,7 +10,80 @@
     text-decoration: none;
     font-size: 16px;
     border-radius:4px;
+    margin-left: 100px;
 }
 .coffee:hover{
     background-color: aqua;
 } 
+.footer{
+    border: 1px solid grey;
+    height: 50px;
+    display:flex;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0%;
+  
+}
+.footerlink{
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.content{
+    height:1000px;
+    
+}
+.flight{
+   font-size: 30px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: bisque;
+   padding: 20px;
+   border: solid rgb(94, 94, 90);
+   border-radius: 25px;
+
+}
+.box1{
+    margin-right: 10px;
+}
+.from{
+    background-color:rgb(161, 88, 98);
+    height: 30px;
+    padding-top: 5px;
+    color: aliceblue;
+   
+    
+}
+.To{
+    background-color:rgb(161, 88, 98);
+    height: 30px;
+    padding-top: 5px;
+    color: aliceblue;
+    
+}
+.passengers{
+    background-color: rgb(161, 88, 98);
+    height: 30px;
+    padding-top: 5px;
+    color: aliceblue;
+   
+
+}
+.date{
+    height: 30px;
+    background-color:rgb(161, 88, 98); 
+    color: aliceblue;
+}
+.savebtm{
+    background-color:rgb(88, 161, 92); 
+    padding: 0 80px 0 80px ;
+    font-size: 30px;
+    border-radius: 50px;
+    color: aliceblue;
+}
