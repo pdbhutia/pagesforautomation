@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: aquamarine;
+}
+.wrapper{
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(204, 163, 243);
+    color: #070301;
+}
+.wrapper h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.btn{
+    height: 45px;
+    float: right;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(215, 235, 125);
+}
+.input-box{
+    height: 30px;
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+   
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 5px;
+   
+}
+.email{
+    margin-left: 35px;
+}
