@@ -1,6 +1,6 @@
 body{
-    margin: 0%;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 .coffee{
     background-color:#edde53 ;
@@ -11,7 +11,7 @@ body{
     text-decoration: none;
     font-size: 16px;
     border-radius:4px;
-    margin-left: 100px;
+    margin: 20px 0 20px 50px;
 }
 .coffee:hover{
     background-color: aqua;
@@ -20,10 +20,11 @@ body{
     border: 1px solid grey;
     height: 50px;
     display:flex;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     justify-content: space-around;
     position: sticky;
     bottom: 0%;
+    background-color: darkgray;
   
 }
 .footerlink{
@@ -37,7 +38,7 @@ a {
     color: black;
 }
 .content{
-    height:1000px;
+    min-height:400px;
     
 }
 .flight{
@@ -89,6 +90,27 @@ a {
     color: aliceblue;
 }
 .loginLink{
-    background-color: #5ed0b4;
     margin: 5px;
+}
+
+.horizontal-bar {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.bar-segment {
+    flex: 1;
+    margin: 0 5px;
+    height: 30px;
+    background-color: #3498db;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-family: Arial, sans-serif;
 }
