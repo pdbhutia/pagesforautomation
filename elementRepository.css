@@ -67,10 +67,33 @@ input.checkbox1{
     margin-left: 10px;
   }
   .small{
-    display: flex;
   }
   .review{
     padding: 10px;
     margin: 10px;
     margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .custom-file-upload{
+    padding: 20px 200px 20px 200px;
+    margin-left: 100px;
+    background-color: rgb(182, 211, 182);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .custom-file-upload:hover{
+    background-color: rgb(63, 222, 124);
+
+  }
+
+  .uploaddiv{
+    margin-top: 30px;
+  }
+  .uploadfield{
+    display: none;
+  }
+
+  .displayflex{
+    display: flex;
   }
