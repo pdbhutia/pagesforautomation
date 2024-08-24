@@ -22,7 +22,7 @@ body{
     margin-top: 4px;
     height: 100px;
     margin-left: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
 }
 .title{
     font-size: 25px;
@@ -38,18 +38,19 @@ body{
 .para{
     font-size: 20px;
     padding: 5px;
+    margin-bottom: 0px;
 
 }
 .check-div{
     
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 8px;
     
 }
 .faram{
     font-size: 25px;
     margin-left: 5px;
-
+    margin-top: 5px;
 }
     
 input.checkbox1{
@@ -59,5 +60,17 @@ input.checkbox1{
  input.checkbox2{
     height: 25px;
     width: 30px;
+    margin-bottom: 30px;
  }
-  
+  .textarea{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .small{
+    display: flex;
+  }
+  .review{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+  }
