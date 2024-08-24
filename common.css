@@ -89,6 +89,10 @@ a {
     border-radius: 50px;
     color: aliceblue;
 }
+
+.savebtm:hover{
+    background-color: aqua;
+} 
 .loginLink{
     margin: 5px;
 }
@@ -114,3 +118,7 @@ a {
     line-height: 30px;
     font-family: Arial, sans-serif;
 }
+
+.bar-segment:hover{
+    background-color: aqua;
+} 
