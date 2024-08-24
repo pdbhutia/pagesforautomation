@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    padding: 5px;
 }
 .coffee{
     background-color:#edde53 ;
@@ -86,4 +87,8 @@ a {
     font-size: 30px;
     border-radius: 50px;
     color: aliceblue;
+}
+.loginLink{
+    background-color: #5ed0b4;
+    margin: 5px;
 }
