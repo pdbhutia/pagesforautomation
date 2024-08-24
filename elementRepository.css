@@ -6,13 +6,16 @@
     color: blanchedalmond;
     font-family: Georgia, serif;
 }
-.container{
-    
-}
-body{
-    background-color: rgb(96, 199, 234);
-}
-.paradiv{
-    
 
+body{
+    background-color: rgb(240, 248, 195);
+}
+.para-div{
+    font-size: 20px;
+}
+
+.border2pxblack{
+    border: solid black 2px;
+    margin: 5px;
+    padding: 5px;
 }
