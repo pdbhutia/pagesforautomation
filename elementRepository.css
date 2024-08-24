@@ -1,3 +1,10 @@
+body{
+    background-color: rgb(240, 248, 195);
+}
+
+
+
+
 .ele{
     background-color: brown;
     text-align: center;
@@ -5,17 +12,52 @@
     font-size: 50px;
     color: blanchedalmond;
     font-family: Georgia, serif;
+    margin: 10px;
+    margin-bottom: 15px;
 }
 
-body{
-    background-color: rgb(240, 248, 195);
-}
+
 .para-div{
+    
+    margin-top: 4px;
+    height: 100px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+.title{
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: rgb(141, 105, 174);
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 20px;
+    color: blanchedalmond;
+    font-family: Georgia, serif;
+}
+.para{
     font-size: 20px;
-}
-
-.border2pxblack{
-    border: solid black 2px;
-    margin: 5px;
     padding: 5px;
+
 }
+.check-div{
+    
+    margin-top: 15px;
+    margin-left: 8px;
+    
+}
+.faram{
+    font-size: 25px;
+    margin-left: 5px;
+
+}
+    
+input.checkbox1{
+    height: 25px;
+    width: 30px;
+ }
+ input.checkbox2{
+    height: 25px;
+    width: 30px;
+ }
+  
