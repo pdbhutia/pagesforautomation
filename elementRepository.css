@@ -19,12 +19,10 @@ body{
 
 .para-div{
     
-    margin-top: 4px;
-    height: 100px;
-    margin-left: 8px;
-    margin-bottom: 4px;
+   
+   
 }
-.title{
+.title1{
     font-size: 25px;
     text-decoration: underline;
     background-color: rgb(141, 105, 174);
@@ -35,22 +33,67 @@ body{
     color: blanchedalmond;
     font-family: Georgia, serif;
 }
+.title2{
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: rgb(141, 105, 174);
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  border-radius: 20px;
+  color: blanchedalmond;
+  font-family: Georgia, serif;
+}
+.title3{
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: rgb(141, 105, 174);
+  padding: 10px;
+  margin: 10px;
+  margin-top: 40px;
+  width: 30%;
+  border-radius: 20px;
+  color: blanchedalmond;
+  font-family: Georgia, serif;
+}
+.title4{
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: rgb(141, 105, 174);
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  border-radius: 20px;
+  color: blanchedalmond;
+  font-family: Georgia, serif;
+}
+.title5{
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: rgb(141, 105, 174);
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  border-radius: 20px;
+  color: blanchedalmond;
+  font-family: Georgia, serif;
+}
 .para{
     font-size: 20px;
     padding: 5px;
-    margin-bottom: 0px;
+    margin-top: 10px;
 
 }
 .check-div{
     
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 8px;
     
 }
 .faram{
     font-size: 25px;
     margin-left: 5px;
-    margin-top: 5px;
+   
 }
     
 input.checkbox1{
@@ -62,9 +105,25 @@ input.checkbox1{
     width: 30px;
     margin-bottom: 30px;
  }
-  .textarea{
+  .textarea1{
     font-size: 20px;
     margin-left: 10px;
+    margin-top: 15px;
+  }
+  .textarea2{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .textarea3{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .textarea4{
+    font-size: 20px;
+    margin-left: 10px;
+
   }
   .small{
   }
@@ -77,13 +136,47 @@ input.checkbox1{
 
 
   .uploaddiv{
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 
  .uploadfield{
-    margin: 20px 0  0 50px;
+   margin-left: 10px;
  }
 
   .displayflex{
     display: flex;
   }
+
+.aai1{
+  margin-top: 15px;
+  margin-left: 0px;
+  height: 400px;
+  width:35%;
+  border-style:ridge;
+}
+.aai2{
+  margin-top: 15px;
+  height: 400px;
+  width:35%;
+  border-style:ridge;
+}
+.box1{
+margin-top: 10px;
+}
+.box2{
+margin-top: 30px;
+}
+.box3{
+  margin-top: 10px;
+}
+.box4{
+  margin-top: 10px;
+}
+}
+.box5{
+  margin-top:5px ;
+}
+.lastbox{
+  display: flex;
+}
